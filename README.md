@@ -14,10 +14,12 @@ JavaScript: Xử lý các chức năng tương tác.
 Bootstrap: 
 jQuery:
 3. Chức năng chính
-[Chức năng 1]
-[Chức năng 2]
-[Chức năng 3]
-[Công cụ tương tác JavaScript]
+Website được tổ chức thành tối thiểu 5 trang HTML dùng chung menu điều hướng và chân trang:
+Trang chủ: Giới thiệu website, mục tiêu học tập và các nội dung chính.
+Trang kiến thức JavaScript: Trình bày các chủ đề biến, kiểu dữ liệu, điều kiện, vòng lặp, hàm, mảng, đối tượng và DOM.
+Trang công cụ tương tác: Cung cấp bài luyện tập, câu hỏi trắc nghiệm và công cụ tra cứu.
+Trang hướng dẫn và hỏi đáp: Hướng dẫn học tập, giải thích lỗi thường gặp và trả lời câu hỏi cơ bản.
+Trang liên hệ – phản hồi: Cung cấp biểu mẫu góp ý với kiểm tra dữ liệu đầu vào.
 4. Cấu trúc dự án
 index.html: Trang chính của website.
 style.css: Định dạng giao diện.
