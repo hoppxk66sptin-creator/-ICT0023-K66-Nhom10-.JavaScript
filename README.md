@@ -1,40 +1,95 @@
 # -ICT0023-K66-Nhom10-.JavaScript
 Website Góc JavaScript căn bản - Bài tập lớn Nhóm 10 (K66 ĐHSP Tin học)
-1. Giới thiệu dự án
-Tên dự án: Website JavaScrip cho sinh viên đang học lập trình web
-Mã học phần: ICT0023
-Lớp: K66ĐHSP Tin học
-Nhóm: 10
-Chủ đề: Góc JavaScript căn bản
-Muc tiêu: Website được xây dựng nhằm giúp hỗ trợ sinh viên học lập trình về JavaScript, cung cấp nội dung hữu ích và hỗ trợ người dùng thực hiện các thao tác trực tiếp trên trình duyệt.
-2. Công nghệ sử dụng
-HTML: Xây dựng cấu trúc trang web.
-CSS: Thiết kế giao diện và bố cục responsive.
-JavaScript: Xử lý các chức năng tương tác.
-Bootstrap: 
-jQuery:
-3. Chức năng chính
+# GÓC JAVASCRIPT CĂN BẢN – NHÓM 10
+
+## 1. Giới thiệu dự án
+
+**Tên website:** Góc JavaScript căn bản
+**Mã học phần:** ICT0023
+**Lớp:** K66
+**Nhóm:** 10
+**Chủ đề:** Website JavaScript cho sinh viên đang học lập trình web.
+
+### Mục tiêu
+
+Xây dựng một website học tập hỗ trợ sinh viên bước đầu tiếp cận JavaScript thông qua kiến thức cơ bản, ví dụ mã nguồn, thuật ngữ và bài luyện tập tương tác. Website hướng đến việc giúp người học hiểu khái niệm, luyện tập và tự kiểm tra kiến thức ngay trên trình duyệt.
+
+### Đối tượng sử dụng
+
+Sinh viên đang học lập trình web, đặc biệt là những người mới bắt đầu học JavaScript.
+
+## 2. Công nghệ sử dụng
+
+* **HTML5:** Xây dựng cấu trúc và nội dung website.
+* **CSS3:** Thiết kế giao diện, bố cục và khả năng hiển thị responsive.
+* **Bootstrap:** Hỗ trợ bố cục thích ứng và xây dựng các thành phần giao diện.
+* **JavaScript:** Xử lý dữ liệu, kiểm tra đáp án, tìm kiếm, lọc nội dung và cập nhật giao diện.
+* **jQuery:** Hỗ trợ một chức năng tương tác phù hợp và được giải thích trong báo cáo.
+
+## 3. Cấu trúc website
+
 Website được tổ chức thành tối thiểu 5 trang HTML dùng chung menu điều hướng và chân trang:
-Trang chủ: Giới thiệu website, mục tiêu học tập và các nội dung chính.
-Trang kiến thức JavaScript: Trình bày các chủ đề biến, kiểu dữ liệu, điều kiện, vòng lặp, hàm, mảng, đối tượng và DOM.
-Trang công cụ tương tác: Cung cấp bài luyện tập, câu hỏi trắc nghiệm và công cụ tra cứu.
-Trang hướng dẫn và hỏi đáp: Hướng dẫn học tập, giải thích lỗi thường gặp và trả lời câu hỏi cơ bản.
-Trang liên hệ – phản hồi: Cung cấp biểu mẫu góp ý với kiểm tra dữ liệu đầu vào.
-4. Cấu trúc dự án
-index.html: Trang chính của website.
-style.css: Định dạng giao diện.
-script.js: Xử lý các chức năng JavaScript.
-README.md: Giới thiệu dự án.
-CONTRIBUTIONS.md: Thông tin và đóng góp của các thành viên.
-5. Hướng dẫn sử dụng
-Truy cập đường dẫn website.
-Chọn mục cần xem trên thanh điều hướng.
-Sử dụng các chức năng tương tác theo hướng dẫn trên website.
-6. Các mốc phát triển
-v0.1-y-tuong: Hoàn thiện ý tưởng dự án.
-v0.2-html: Hoàn thiện cấu trúc HTML.
-v0.3-giao-dien: Hoàn thiện giao diện.
-v0.4-tuong-tac: Hoàn thiện chức năng tương tác.
-v1.0-final: Phiên bản hoàn chỉnh.
-7. Mục đích dự án
-Dự án được thực hiện phục vụ hoạt động học tập của nhóm trong học phần ICT0023.
+
+1. **Trang chủ:** Giới thiệu website, mục tiêu học tập và các nội dung chính.
+2. **Trang kiến thức JavaScript:** Trình bày các chủ đề biến, kiểu dữ liệu, điều kiện, vòng lặp, hàm, mảng, đối tượng và DOM.
+3. **Trang công cụ tương tác:** Cung cấp bài luyện tập, câu hỏi trắc nghiệm và công cụ tra cứu.
+4. **Trang hướng dẫn và hỏi đáp:** Hướng dẫn học tập, giải thích lỗi thường gặp và trả lời câu hỏi cơ bản.
+5. **Trang liên hệ – phản hồi:** Cung cấp biểu mẫu góp ý với kiểm tra dữ liệu đầu vào.
+
+## 4. Chức năng tương tác
+
+Các chức năng bắt buộc của dự án gồm:
+
+* **Hiển thị dữ liệu:** Render danh sách kiến thức, câu hỏi hoặc thuật ngữ từ mảng đối tượng hay dữ liệu JSON cục bộ.
+* **Tìm kiếm, lọc hoặc sắp xếp:** Giúp người dùng tra cứu kiến thức theo từ khóa hoặc chủ đề.
+* **Kiểm tra biểu mẫu và phản hồi tức thời:** Kiểm tra dữ liệu nhập, thông báo lỗi rõ ràng và cung cấp kết quả tính toán hoặc kết quả được sinh ra từ dữ liệu người dùng.
+
+Các chức năng học tập bổ sung, nếu có, sẽ được ghi nhận sau khi triển khai và kiểm thử thực tế.
+
+## 5. Giao diện và trải nghiệm người dùng
+
+* Sử dụng bố cục nhất quán giữa các trang.
+* Có menu điều hướng và chân trang dùng chung.
+* Bố cục responsive trên máy tính và điện thoại.
+* Hình ảnh có văn bản thay thế `alt`; biểu mẫu có `label`.
+* Có dữ liệu mẫu hoặc nút dùng thử và nút đặt lại ở công cụ phù hợp.
+* Các thao tác chính có thể sử dụng bằng bàn phím.
+
+## 6. Quy trình phát triển trên GitHub
+
+Nhóm sử dụng repository Public để quản lý mã nguồn và tài liệu.
+
+* Theo dõi nhiệm vụ qua GitHub Issues.
+* Phát triển tính năng trên branch phù hợp.
+* Sử dụng Pull Request và review chéo cho các thay đổi quan trọng.
+* Ghi commit theo nội dung thực tế.
+* Lưu các mốc phát triển: `v0.1-y-tuong`, `v0.2-html`, `v0.3-giao-dien`, `v0.4-tuong-tac` và `v1.0-final`.
+
+## 7. Kiểm thử
+
+Website được kiểm thử về:
+
+* Điều hướng giữa các trang và khả năng hiển thị responsive.
+* Chức năng tìm kiếm, lọc và hiển thị dữ liệu.
+* Kiểm tra biểu mẫu với dữ liệu hợp lệ, dữ liệu sai và dữ liệu rỗng.
+* Các chức năng JavaScript và jQuery.
+* Khả năng sử dụng bàn phím, thông báo lỗi và việc tải tài nguyên.
+* Hoạt động trên GitHub Pages và các trường hợp biên.
+
+Kết quả kiểm thử sẽ được cập nhật dựa trên các lần chạy thử thực tế.
+
+## 8. Nguồn tham khảo và liêm chính học thuật
+
+Các tài liệu, mã tham khảo, hình ảnh, dữ liệu và công cụ AI được khai báo trong `SOURCES.md`. Nhóm chịu trách nhiệm kiểm tra quyền sử dụng tài nguyên, hiểu và giải thích mã nguồn, đồng thời ghi nhận trung thực các hỗ trợ đã sử dụng.
+
+## 9. Hạn chế và hướng phát triển
+
+Website là sản phẩm học tập dạng tĩnh, không sử dụng backend, cơ sở dữ liệu hoặc tài khoản đăng nhập. Dữ liệu người dùng chỉ tồn tại trong phiên đang mở và được đặt lại khi tải lại trang.
+
+## 10. Liên kết dự án
+
+* **Repository GitHub:** [URL repository]
+* **Website GitHub Pages:** [URL website]
+* **Báo cáo:** [Tên file DOCX/PDF]
+* **Thuyết trình:** [Tên file PPTX]
+* **Video demo:** [URL YouTube Unlisted]
