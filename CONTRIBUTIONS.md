@@ -40,7 +40,7 @@
 
 ### 2.4.Vũ Hà Giang Minh
 
-* **Tài khoản GitHub:** 
+* **Tài khoản GitHub: minhvhg.k66sptin@utb.edu.vn** 
 * **Vai trò:** Phụ trách thuyết trình và video demo.
 * **Nhiệm vụ:**
 
