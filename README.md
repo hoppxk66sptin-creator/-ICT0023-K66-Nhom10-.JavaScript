@@ -1,4 +1,3 @@
-﻿# -ICT0023-K66-Nhom10-.Javascript_Thu
 # Góc JAVASCRIPT căn bản - Nhóm 10
 
 ## 1. Giới thiệu dự án
