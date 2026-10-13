@@ -83,5 +83,3 @@ Kết quả kiểm thử sẽ được cập nhật dựa trên các lần chạ
 * **Báo cáo:** [Tên file DOCX/PDF]
 * **Thuyết trình:** [Tên file PPTX]
 * **Video demo:** [URL YouTube Unlisted]
-
-*Lưu ý: Chỉ điền trạng thái hoàn thành và các đường dẫn sau khi đã xác minh sản phẩm thực tế.*
