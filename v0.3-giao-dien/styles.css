@@ -63,7 +63,7 @@ pre code{color:inherit;word-break:normal}
 .table thead th{background:var(--muc-chu);color:#fff;font-weight:600;white-space:nowrap}
 .lo-trinh{counter-reset:buoc;list-style:none;padding:0}
 .lo-trinh li{counter-increment:buoc;position:relative;padding:.6rem 0 .6rem 3rem;border-bottom:1px dashed var(--muc-vien)}
-.lo-trinh li::before{counter-increment:buoc;content:counter(buoc);position:absolute;left:0;top:.5rem;width:2rem;height:2rem;border-radius:50%;background:var(--muc-chu);color:#fff;display:grid;place-items:center;font-weight:700;font-size:.9rem}
+.lo-trinh li::before{content:counter(buoc);position:absolute;left:0;top:.5rem;width:2rem;height:2rem;border-radius:50%;background:var(--muc-chu);color:#fff;display:grid;place-items:center;font-weight:700;font-size:.9rem}
 
 /* ===== Công cụ ===== */
 .nav-tabs .nav-link{color:var(--muc-phu);font-weight:600}
